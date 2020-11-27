@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hub of Adventure</title>
 	<link rel="icon" href="img/kitty0.png">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
+<audio id="sample">
+  <source src="audio/Whiskers0.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
 <body>
+<h1 id="fundsStolen">You can trust me, I'm so cute!</h1>
+<div id="kispy" class="kispy">
+<button id="dynamicButton" onclick="buttonKispyMeow()">Meow</button>	
+
+</div>
+<div class="opacity"></div>
+
 
 <div id="catMeter">
 	<div id="kitty" class="kitty"></div>
@@ -21,6 +35,8 @@
 	<div id="kitty" class="kitty"></div>
 </div>
 </body>
+
+
 
 <script src=js/script.js> </script>
 
