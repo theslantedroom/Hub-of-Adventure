@@ -105,13 +105,14 @@ const buttonKispyMeow = () => {
             if (frame==9) { 
                 frame = 1;
                 playSample();   
-                fundsStolen.style.color = "black";           
+                fundsStolen.style.color = "white";           
              };
 
               if (frame==4) { 
                      fundsStolen.innerHTML = `Your bank account has been DRAINED of $${funds.toFixed(2)} $ WaRNING warniNG Transaction APPROVED`;     
                      funds = funds*2.8; 
                      fundsStolen.style.color = "red";
+                     playSample()
              };
             
         }, 100);
